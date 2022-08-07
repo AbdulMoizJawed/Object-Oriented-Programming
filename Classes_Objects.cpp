@@ -30,15 +30,12 @@ void Employee :: setData(int a1, int b1, int c1){
 
 
 int main(){
-    Employee harry;
-    harry.d =34;
-    harry.e =22;
-    // harry.a = 1; this will give error as a is private 
-    harry.setData(1,2,4);
-    harry.getData();   
-
- 
-
+    Employee Moiz;
+    Moiz.d =34;
+    Moiz.e =22;
+    // Moiz.a = 1; this will give error as a is private 
+    Moiz.setData(1,2,4);
+    Moiz.getData();   
 
     return 0;
 }
